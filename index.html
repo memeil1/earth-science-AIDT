@@ -1,33 +1,66 @@
 <!DOCTYPE html>
-<html lang="ko">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>디지털 교과서 - 첫 번째 페이지</title>
+    <title>Digital Textbook</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- 수업 제목 -->
-    <header>
-        <h1>과학 수업: 물질의 상태 변화</h1>
-    </header>
+    <div class="a4-ratio-wrapper">
+        <div class="a4-ratio-container">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-box">
+                    <img src="https://i.ibb.co/t8xMNrm/image.png" alt="Lesson Title" class="lesson-title-img">
+                </div>
+            </header>
 
-    <!-- 학습 목표 -->
-    <section>
-        <h2>학습 목표</h2>
-        <p>이 수업을 통해 학생들은 물질의 상태 변화와 그 과정에서 나타나는 특징을 이해할 수 있습니다.</p>
-    </section>
+            <!-- Main Content -->
+            <main class="main-content">
+                <!-- Introduction Section -->
+                <section class="introduction">
+                    <div class="introduction-box">
+                        <img src="https://i.ibb.co/VB4SmLs/001.png" alt="Introduction" class="introduction-img">
+                    </div>
+                </section>
 
-    <!-- 질문해보기 -->
-    <section>
-        <h2>질문해보기</h2>
-        <p>물질은 어떻게 고체, 액체, 기체로 상태가 변할까요? 그 과정에서 에너지는 어떤 역할을 할까요?</p>
-    </section>
+                <!-- Hypothesis Section -->
+                <section class="hypothesis-section">
+                    <div class="hypothesis-box">
+                        <img src="https://i.ibb.co/9whbkHf/001-1.png" alt="Hypothesis Explanation" class="explanation-img">
+                        <textarea class="input-box" placeholder="실험에 따른 가설을 적어봅시다"></textarea>
+                        <div class="plus-button-wrapper">
+                            <a href="https://example.com" target="_blank" class="plus-button">+</a>
+                        </div>
+                        
+                    </div>
+                </section>
 
-    <!-- 가설 설정 -->
-    <section>
-        <h2>가설 설정</h2>
-        <p>아래에 자신의 가설을 작성해보세요:</p>
-        <textarea rows="4" cols="50" placeholder="예: 물이 증발하려면 열이 필요하다."></textarea>
-    </section>
+                <!-- Experiment Section -->
+                <section class="experiment-section">
+                    <div class="experiment-box">
+                        <img src="https://i.ibb.co/QKsyJK2/image.png" alt="Experiment Explanation" class="explanation-img">
+                        <textarea class="input-box" placeholder="준비물을 사용해 실험을 계획해봅시다"></textarea>
+                        <div class="plus-button-wrapper">
+                            <a href="https://chatgpt.com/g/g-675614bfbc7481919f6559606e6b3d30-gion-silheom-seolgye-doumi" target="_blank" class="plus-button">+</a>
+                        </div>
+                        
+                    </div>
+                </section>
+            </main>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="footer-box">
+                    <div class="navigation">
+                        <a href="index.html" class="nav-button">Previous</a>
+                        <span class="page-number">1</span>
+                        <a href="2.html" class="nav-button">Next</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
 </html>
